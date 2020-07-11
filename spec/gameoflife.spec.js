@@ -1,7 +1,6 @@
 // eslint-disable-next-line
 const should = require('chai').should();
 const game = require('../gameoflife.js');
-console.log(new game.Generation);
 const Generation = game.Generation;
 describe('game of life', () => {
 	describe('generations are updated according to the rules', () => {
